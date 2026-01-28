@@ -1,0 +1,24 @@
+﻿<Application x:Class="WpfUI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:views="clr-namespace:WpfUI.Views"
+             xmlns:viewModels="clr-namespace:WpfUI.ViewModels"
+             StartupUri="Views/MainWindow.xaml">
+
+    <Application.Resources>
+
+        <DataTemplate DataType="{x:Type viewModels:MainViewModel}">
+            <views:MainWindow />
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type viewModels:FirstTabViewModel}">
+            <views:FirstTab />
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type viewModels:SecondTabViewModel}">
+            <views:SecondTab />
+        </DataTemplate>
+
+    </Application.Resources>
+    
+</Application>
