@@ -20,7 +20,7 @@
       Library to facilitate the use of commands in WPF applications.
     </Description>
     <PackageTags>wpf command mvvm</PackageTags>
-    <RepositoryUrl>https://github.com/tu-usuario/tu-repo</RepositoryUrl>
+    <RepositoryUrl>https://github.com/IngNefly/WPFCommon</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 
